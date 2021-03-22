@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+:root {
+        --VeryDarkGray: hsl(0, 0%, 17%);
+        --DarkGray: hsl(0, 0%, 59%);
+}

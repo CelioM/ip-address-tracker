@@ -1,0 +1,49 @@
+.headerContainer {
+    height: 15.5rem;
+    width: 100vw;
+    background: url(../../img/pattern-bg.png);
+}
+
+.containerTitle h1 {
+    color: white;
+    text-align: center;
+    font-size: 2.1rem;
+    padding-top: 1.2rem;
+}
+.ipInput {
+    display: flex;
+    flex-direction: row;
+    padding-right: 0;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.4rem;
+}
+.ipInput input[type=submit] {
+    border: none;
+    background: url(../../img/icon-arrow.svg) no-repeat; 
+    color: transparent;
+    background-color: black;
+    width: 2.2rem;
+    height: 3.46rem;
+    border-radius: 0 8px 8px 0;
+    background-position: center;
+    cursor: pointer;
+    
+}
+
+.ipInput input::placeholder {
+    color: var(--VeryDarkGray);
+    font-size: 18px;
+}
+.ipInput input[type=number] {
+    border: none;
+    border-radius: 8px 0 0 8px;
+    padding: 1.2rem;
+    width: 30rem;
+    -moz-appearence: textfield;
+    appearance: textfield;
+}
+.ipInput input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearence: none;
+}

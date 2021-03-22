@@ -1,0 +1,42 @@
+ .modalContainer { 
+     height: 8.45rem;
+     width: 68.76%;
+     border: 2px solid white;
+     border-radius: 10px;
+     background: #ffffff;
+     position: absolute;
+     top: 12rem;
+     left: 15%;
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     z-index: 1;
+     box-shadow: 0 2px 2px gray;
+}
+.modalPosition {
+    margin: 0 auto;
+
+}
+.mainInfo {
+    
+    display: flex;
+    flex-direction: row;
+}
+.mainInfo > ul {
+    color: var(--DarkGray);
+    font-weight: bolder;
+    border-right: 2.1px solid var(--DarkGray);
+    margin-top: -2rem;
+    font-size: 0.8789rem;
+    margin-right: 1.56rem;
+    padding-right: 7.6rem;
+    line-height: 1rem;
+}
+.mainInfo ul:last-child {
+    border: none;
+}
+.mainInfo > ul li {
+    list-style: none;
+    
+    
+}
